@@ -7,10 +7,10 @@ public class Main {
         System.out.println(); // Space
 
         myCars.information();
-        System.out.println(); // Space
+        System.out.println();
 
         myCars.retailPrice();
-        System.out.println(); // Space
+        System.out.println();
 
         double total = (myCars.price - savedMoney);
 
@@ -21,5 +21,10 @@ public class Main {
         System.out.print("& A Bugatti My Guy!!!");
         System.out.println();
         System.out.println();
+
+        Cars.yearsToGet(); // Because using static you have to use the class Cars
+        System.out.println();
+        System.out.println();
+
     }
 }

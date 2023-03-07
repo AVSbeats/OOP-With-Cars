@@ -21,4 +21,14 @@ public class Cars { // This is attached to the Main Class!!!
             System.out.print(myNewCars[i] + ", ");
         }
     }
+
+    public static int[] yearsToGet() { // Can Not Use with ***Cars myCars = new Cars();***
+        int[] years = { 2024, 2025, 2026, 2027 };
+
+        System.out.print("The years I will buy them are: ");
+        for (int j = 0; j < years.length; j++) {
+            System.out.print(years[j] + " ");
+        }
+        return years;
+    }
 }
