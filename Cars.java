@@ -14,7 +14,7 @@ public class Cars { // This is attached to the Main Class!!!
     }
 
     public void futureCar() {
-        String[] myNewCars = { "Audi", "Lexus", "BMW", "Acura" };
+        String[] myNewCars = { "Audi", "Lexus", "BMW", "Acura", "Hyundai" };
 
         System.out.print("My future cars are: ");
         for (int i = 0; i < 4; i++) {
